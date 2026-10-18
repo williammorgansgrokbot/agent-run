@@ -1,5 +1,29 @@
 # AGENT RUN
 
+<p align="center"><img src="docs/images/mockups/01_day_highway_2x.png" alt="AGENT RUN: day highway" width="720"></p>
+
+> **One afternoon. Two platforms. One AI build partner.**
+> William Morgan built AGENT RUN with his AI assistant, **Grok Bot**, in a single afternoon and evening. It covers an ESP32 handheld game, a 60 fps Nintendo DS port and a printable retro TV cabinet, in **roughly an hour and a half of AI build time**.
+
+### ⏱️ Build timeline (Oct 17 2026, Central time)
+*Times exclude William's hands-on flashing and testing.*
+
+| Part | What got built | Time (CT) | Build time |
+|---|---|---|---|
+| **CYD** | Art mockups | 2:01–2:06 PM | ~5 min |
+| | First compiled game with Bluetooth controller support | 2:08–2:15 PM | 7 min |
+| | Blank-screen fix (first build confirmed working on hardware) | 2:25–2:30 PM | 5 min |
+| | RGB LED + 8-bit sound and music | 4:40–4:44 PM | 4 min |
+| **DS** | First `.nds`, including devkitPro setup | 7:53–8:05 PM | 12 min |
+| | hbmenu launch fix | 9:22–9:33 PM | 11 min |
+| | Performance rewrite, ~12 → 60 fps | 9:37–9:59 PM | 22 min |
+| **Extras** | Retro Curtis Mathes-style console-TV enclosure | 7:58–8:17 PM | 19 min |
+| | GitHub repo + write-up, then a secret scan (Oct 18) | — | ~2 min + ~1 min |
+
+**CYD:** about 45 min of build time · **DS:** about 2 hours elapsed, ~45 min of build time · **Total:** roughly **1.5 hours** of AI build time.
+
+---
+
 **An isometric spy-car road game for the 4" ESP32 "Cheap Yellow Display", with a Nintendo DS port and a 3D-printable retro console-TV cabinet.**
 
 You drive a white spy car up an endless isometric highway. You shoot enemy rammers and gunners, avoid civilians, grab weapons from the "W" van, and switch to a boat when the road runs out at the coast.
