@@ -1,0 +1,21 @@
+# ESP32 / PlatformIO / ESP-IDF (third-party deps are fetched by cyd/setup_deps.sh)
+.pio/
+cyd/components/
+cyd/external/
+cyd/managed_components/
+cyd/build/
+sdkconfig.old
+cyd/sdkconfig
+# DS build output
+ds/build/
+ds/build_demo/
+*.elf
+*.nds
+*.map
+# prebuilt binaries live in GitHub Releases
+*.bin
+*.zip
+# misc
+__pycache__/
+.DS_Store
+*.swp
